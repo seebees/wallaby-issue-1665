@@ -1,0 +1,7 @@
+{
+  "extends": "./modules/tsconfig.settings.json",
+  "files": [],
+  "references": [
+    {"path": "modules/package-1"}
+  ]
+}

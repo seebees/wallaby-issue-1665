@@ -1,0 +1,20 @@
+{
+  "lerna": "2.11.0",
+  "packages": [
+    "modules/*"
+  ],
+  "version": "independent",
+  "command": {
+    "bootstrap": {
+      "nohoist": [
+        "@types/*",
+        "typedoc"
+      ]
+    }
+  },
+  "hoist": true,
+  "nohoist": [
+    "@types/*",
+    "typedoc"
+  ]
+}
